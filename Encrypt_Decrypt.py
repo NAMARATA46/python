@@ -4,7 +4,7 @@ import base64
 
 def decrypt():
     password = code.get()
-    
+     
     if password == "1234":
         screen1 = Toplevel(screen)
         screen1.title("Decryption")
